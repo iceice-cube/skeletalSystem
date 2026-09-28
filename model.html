@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <title>The Skeletal System</title>
+  </head>
+  <body style="background-color: #FFFAED;">
+    <div class="nav-bar black">
+      <!-- Breadcrumb
+       PATHFIT 1 (MIDDLE) Meet the Skeleton (Option1) About Me(Option 2) Explore More (Option 3)-->
+      <ul class="nav-left">
+        <li>
+          <button onclick="goToPage('index.html')">
+            <span class="button_top back">Back</span>
+          </button>
+        </li>
+      </ul>
+      <span  class="nav-middle">
+        <p id ='breadcrumb' >SKELETAL SYSTEM</p>
+      </span>
+       <ul class="nav-choices">
+        <li><a href="">REFERENCES</a></li>
+       </ul>
+    </div>
+
+      <div class="category-bar window-area">
+        <div class="status-bar bottom-border-only"></div>
+        <span id="appendicular" class="category-button">Appendicular</span>
+        <span id="axial" class="category-button">Axial</span>
+      </div>
+    </div>
+    
+
+    <div class="body-container">
+      <div class="model-container">
+        <div class="window-area">
+          <div class="status-bar"></div>
+          <div class="model-area">
+          <img src="src/assets/mode_assets/main.png" id="main" class="model-main">
+          <img src="src/assets/mode_assets/Arm.png" id="arm" class="model-part">
+          <img src="src/assets/mode_assets/column.png" id="column" class="model-part">
+          <img src="src/assets/mode_assets/Clavicle.png" id="clavicle" class="model-part">
+          <img src="src/assets/mode_assets/feet.png" id="feet" class="model-part">
+          <img src="src/assets/mode_assets/Hand.png" id="hand" class="model-part">
+          <img src="src/assets/mode_assets/legs.png" id="legs" class="model-part">
+          <img src="src/assets/mode_assets/Pelvis copy.png" id="pelvis" class ="model-part">
+          <img src="src/assets/mode_assets/Ribacge.png" id="ribcage" class="model-part">
+          <img src="src/assets/mode_assets/Skull.png" id="skull" class="model-part">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-container">
+        <div id="skull-group" class="sub-image-container hidden window-area">
+            <div class="group-selectable-area">
+              <img src="src/assets/mode_assets/groups/skull-group.png">
+              <button id="skull-1" style="top: 350px; left:80px;"   class="circle-btn"></button>
+              <button id="skull-2" style="top: 120px; left:212px;"  class="circle-btn"></button>
+              <button id="skull-3" style="top: 210px; left:165px;"  class="circle-btn"></button>
+              <button id="skull-4" style="top: 210px; left:290px;"  class="circle-btn"></button>
+              <button id="skull-5" style="top: 330px; left:165px;"  class="circle-btn"></button>
+              <button id="skull-6" style="top: 420px; left:165px;"  class="circle-btn"></button>
+            </div>
+        </div>
+        <div id="ribcage-group" class="sub-image-container hidden window-area">
+            <div class="group-selectable-area">
+              <img src="src/assets/mode_assets/groups/ribcage-group.png">
+              <button id="ribcage-1"style="top: 100px; left:120px;"  class="circle-btn"></button>
+              <button id="ribcage-2"style="top: 190px; left:202px;"  class="circle-btn"></button>
+              <button id="ribcage-3"style="top: 245px; left:250px;"  class="circle-btn"></button>
+            </div>
+        </div>
+        <div id="pelvic-group" class="sub-image-container hidden window-area">
+            <div class="group-selectable-area">
+              <img src="src/assets/mode_assets/groups/pelvic-group.png">
+              <button id="pelvic-1" style="top: 90px; left:100px;"   class="circle-btn"></button>
+              <button id="pelvic-2" style="top: 120px; left:212px;"  class="circle-btn"></button>
+              <button id="pelvic-3" style="top: 190px; left:212px;"  class="circle-btn"></button>
+              <button id="pelvic-4" style="top: 250px; left:212px;"  class="circle-btn"></button>
+            </div>
+        </div>
+        <div id="feet-group" class="sub-image-container hidden window-area">
+          <div class="group-selectable-area">
+            <img src="src/assets/mode_assets/groups/feet-group.png">
+            <button id="feet-1" style="top: 165px; left:135px;"    class="circle-btn"></button>
+            <button id="feet-2" style="top: 315px; left:120px;"    class="circle-btn"></button>
+            <button id="feet-3" style="top: 450px; left:120px;"    class="circle-btn"></button>
+          </div>
+        </div>
+        <div id="hand-group" class="sub-image-container hidden window-area">
+          <div class="group-selectable-area">
+            <img src="src/assets/mode_assets/groups/hand-group.png">
+            <button id="hand-1" style="top: 100px; left:125px;"    class="circle-btn"></button>
+            <button id="hand-2" style="top: 250px; left:130px;"    class="circle-btn"></button>
+            <button id="hand-3" style="top: 335px; left:140px;"    class="circle-btn"></button>
+          </div>
+        </div>
+        <div id="leg-group" class="sub-image-container leg hidden window-area">
+          <div class="group-selectable-area">
+            <img src="src/assets/mode_assets/groups/leg-group.png">
+            <button id="leg-1" style="top: 179px; left:110px;"    class="circle-btn"></button>
+            <button id="leg-2" style="top: 303px; left:0px;"      class="circle-btn"></button>
+            <button id="leg-3" style="top: 400px; left:-115px;"   class="circle-btn"></button>
+            <button id="leg-4" style="top: 335px; left:-30px;"    class="circle-btn"></button>
+          </div>
+        </div>
+        <div id="arm-group" class="sub-image-container arm hidden window-area">
+          <div class="group-selectable-area">
+            <img src="src/assets/mode_assets/groups/arm-group.png">
+            <button id="arm-1"style="top: 179px; left:120px;"    class="circle-btn"></button>
+            <button id="arm-2"style="top: 225px; left:0px;"      class="circle-btn"></button>
+            <button id="arm-3"style="top: 320px; left:450px;"    class="circle-btn"></button>
+            <button id="arm-4"style="top: 335px; left:400px;"    class="circle-btn"></button>
+          </div>
+        </div>
+        <div id="spinal-group" class="sub-image-container spinal hidden window-area">
+          <div class="group-selectable-area">
+            <img src="src/assets/mode_assets/groups/spinal-column.png">
+            <button id="spinal-1" style="top: 90px; left:30px;"     class="circle-btn"></button>
+            <button id="spinal-2" style="top: 225px; left:30px;"    class="circle-btn"></button>
+            <button id="spinal-3" style="top: 400px; left:30px;"    class="circle-btn"></button>
+            <button id="spinal-4" style="top: 470px; left:90px;"    class="circle-btn"></button>
+            <button id="spinal-5" style="top: 500px; left:90px;"    class="circle-btn"></button>
+          </div>
+        </div>
+        <div id="clavicle" class="sub-image-container spinal hidden">
+  
+        </div>
+        <div class="text-container window-area">
+          <div class="status-bar bottom-border-only"></div>
+          <div class="pad-content">
+            <h4 id="title" class="part-subtitle">Click a Part To Start</h4>
+            <h4 id="tags" class="tags-subtitle"></h4>
+            <p id="body-content" class="text-content"></p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

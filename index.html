@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <title>The Skeletal System</title>
+  </head>
+  <body style="background-color: black;">
+    <div class="nav-bar">
+      <!-- Nav bar 
+       PATHFIT 1 (MIDDLE) Meet the Skeleton (Option1) About Me(Option 2) Explore More (Option 3)-->
+      <ul class="nav-left">
+        <li>THE FRAMEWORK OF THE BODY</li>
+      </ul>
+
+      <ul class="nav-middle">
+        <li>PATHFIT 1</li>
+      </ul>
+
+      <ul class="nav-choices">
+        <li><a href="model.html">MEET THE SKELETON</a></li>
+        <li><a href="#sec2">EXPLORE MORE</a></li>
+        <li><a href="#">ABOUT ME</a></li>
+        
+      </ul>
+    </div>
+    <div class="section-1">
+      <img id="skull-left" src="src/assets/hero-left.png">
+      <img id="skull-right" src="src/assets/hero-right.png">
+      <div class="hero-content-container">
+        <h1 class="title">THE SKELETAL SYSTEM</h1>
+        <a href="#sec2">
+          <button>
+            <span class="button_top">Learn More</span>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div id="sec2" class="section-2">
+        <div class="bartolo-container">
+          <img id="bartolo" src="src/assets/bartolo.png">
+        </div>
+        <div class="sec2-text-container">
+          <h1 class="subtitle">THE SKELETAL SYSTEM</h1>
+          <p class="text-content white">Humans are vertebrates, animals having a vertabral column or backbone. They rely on a sturdy internal frame that is centered on a prominent spine. The human skeletal system consists of bones, cartilage, ligaments and tendons and accounts for about 20 percent of the body weight. 
+            The living bones in our bodies use oxygen and give off waste products in metabolism. They contain active tissues that consume nutrients, require a blood supply and change shape or remodel in response to variations in mechanical stress.
+            Bones provide a rigid framework, known as the skeleton, that support and protect the soft organs of the body.
+            The skeleton supports the body against the pull of gravity. The large bones of the lower limbs support the trunk when standing.
+            The skeleton also protects the soft body parts. The fused bones of the cranium surround the brain to make it less vulnerable to injury. Vertebrae surround and protect the spinal cord and bones of the rib cage help protect the heart and lungs of the thorax.
+            Bones work together with muscles as simple mechanical lever systems to produce body movement.
+          </p>
+          <a href="#sec2">
+          <br><center>
+            <a href="#sec3">
+              <button>
+                <span  class="button_top">About Me</span>
+              </button>
+            </a>
+            <button onclick="goToPage('model.html')">
+              <span class="button_top">Meet The Skeleton</span>
+            </button>
+          </center>
+          </a>
+      </div>
+    </div>
+    <div id="sec3" class="section-3">
+      <div class="about-me-container">
+        <h1 class="subtitle">ABOUT ME</h1>
+        <p class="text-content white center">
+          I'am Ice Russel Dungo of BSCS-DS 1A. <br><br>
+          This website was created as a partial requirement for PATHFIT 1, under the supervision of Ms. Lencel Bondad.
+          <br><br>
+          This platform is strictly intended for educational purposes, with no commercial intent, monetization, or distribution involved. <Br>All images, graphic assets, and reference media used throughout this project belong entirely to their respective owners and proper creators.
+          <br>Tech Stack: Built entirely using Vanilla Web technologies (HTML5, CSS3, and JavaScript).
+        </p>
+        <br><center>
+            <button onclick="goToPage('model.html')">
+              <span class="button_top">Meet The Skeleton</span>
+            </button>
+          </center>
+      </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
