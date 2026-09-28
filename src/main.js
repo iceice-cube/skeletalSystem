@@ -1,6 +1,6 @@
-import './style.css'
 
-import hoverSoundFile from './assets/sound/hover-effect.wav'; // 1. Import the audio file
+
+import hoverSoundFile from ; // 1. Import the audio file
 
 var groups = [
   document.getElementById("skull-group"),
@@ -559,7 +559,7 @@ bones.forEach((bone) => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const hoverSound = new Audio(hoverSoundFile); // 2. Pass the imported reference
+  const hoverSound = new Audio('./assets/sound/hover-effect.wav'); // 2. Pass the imported reference
   hoverSound.volume = 0.5;
 
   const parts = document.querySelectorAll('.model-part');
