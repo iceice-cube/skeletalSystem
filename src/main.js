@@ -186,6 +186,7 @@ function handlePartClick(partId, currentGroup, groups) {
   return currentGroup;
 }
 
+
 function handleBoneButtonClick(buttonId) {
   switch (buttonId) {
     // --- SKULL GROUP ---
@@ -201,7 +202,8 @@ function handleBoneButtonClick(buttonId) {
       updateText(
         "Cranium",
         "Axial | Flat",
-        `The cranium is the part of the skull that encloses the brain. It is composed of bones or cartilage and protects the brain and some sense organs. In humans, the cranium is globular and relatively large compared to the face, unlike in most other animals where the facial portion is larger. The human cranium is supported by the atlas, the highest vertebra, allowing for nodding and side-to-side head movements. Key bones forming the cranium include the occipital bone at the base, the parietal and temporal bones on the sides and top, and the frontal bone forming the forehead. The cranial floor is made up of the sphenoid and ethmoid bones. In infants, the sutures between these bones are loose but fuse with age.`
+        `The cranium is the part of the skull that encloses the brain. It is composed of bones or cartilage and protects the brain and some sense organs. In humans, the cranium is globular and relatively large compared to the face, unlike in most other animals where the facial portion is larger.
+        The human cranium is supported by the atlas, the highest vertebra, allowing for nodding and side-to-side head movements. Key bones forming the cranium include the occipital bone at the base, the parietal and temporal bones on the sides and top, and the frontal bone forming the forehead. The cranial floor is made up of the sphenoid and ethmoid bones. In infants, the sutures between these bones are loose but fuse with age.`
       );
       updateBreadCrumb(2, 'CRANIUM');
       break;
@@ -469,7 +471,7 @@ function handleBoneButtonClick(buttonId) {
       updateText(
         "Coccyx",
         "Axial | Irregular",
-        `Coccyx, curved, semiflexible lower end of the backbone (vertebral column) in apes and humans, representing a vestigial tail. It is composed of three to five successively smaller caudal (coccygeal) vertebrae. The first is a relatively well-defined vertebra and connects with the sacrum; the last is represented by a small nodule of bone. The spinal cord ends above the coccyx. In early adulthood the coccygeal vertebrae fuse with each other; in later life the coccyx may fuse with the sacrum. A corresponding structure in other vertebrates, such as birds, may also be called a coccyx.`
+        `Coccyx, curved, semi flexible lower end of the backbone (vertebral column) in apes and humans, representing a vestigial tail. It is composed of three to five successively smaller caudal (coccygeal) vertebrae. The first is a relatively well-defined vertebra and connects with the sacrum; the last is represented by a small nodule of bone. The spinal cord ends above the coccyx. In early adulthood the coccygeal vertebrae fuse with each other; in later life the coccyx may fuse with the sacrum. A corresponding structure in other vertebrates, such as birds, may also be called a coccyx.`
       );
 
       updateBreadCrumb(2, "Coccyx");
