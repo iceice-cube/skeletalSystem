@@ -1,7 +1,5 @@
 
 
-import hoverSoundFile from ; // 1. Import the audio file
-
 var groups = [
   document.getElementById("skull-group"),
   document.getElementById("ribcage-group"),
